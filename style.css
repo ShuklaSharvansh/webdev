@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    color:#444;
+    text-align: center;
+    background-color: white;
+    overflow: auto;
+}
+img{
+    max-width:100%;
+}
+#callout {
+    width: 100%;
+    background-color: #555;
+    height: auto;
+    color: #ccc;
+    overflow: hidden;
+    text-align: right;
+}
+header {
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding-left: 10px;
+}
+nav ul li{
+    float: left;
+    width:20%;
+    border: 2 px solid #555;
+}
+nav ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 6% 12%;
+}
+nav ul li a:hover, nav ul li.active a{
+    background-color: #444;
+    color: hsl(0, 100%, 41.6%);
+}
+.banner {
+    padding-top: 2%;
+    font-size: 30px;
+}
+.lc{
+    font-size: 18px;
+    width: 50%;
+    padding-left: 2%;
+    float: left;
+}
+.sidebar {
+    width: 45%;
+    float: right;
+}
+.clearfix {
+    clear: both; 
+}
+.thirds{
+    width: 29%;
+    float: left;
+    padding: 2%;
+}
+footer{
+    background-color: #555;
+    width: auto;
+    padding: 2%;
+}
+.social{
+    font-size: 400%;
+}
+.social a {
+color: #fff;
+padding: 3%;
+}
+
+.social a:hover{
+    color: hsl(0, 100%, 41.6%); 
+    padding: 3%;
+} 
